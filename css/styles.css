@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Cookie&family=Montserrat:wght@400;600;700;800;900&family=Moon+Dance&family=Nunito:wght@200;300;400;600;700&family=Patua+One&family=Poppins:wght@200;300;400;500;600&family=Roboto:ital,wght@0,100;0,300;0,400;1,100;1,300;1,400&family=Saira+Semi+Condensed:wght@400;600;700;900&family=Urbanist&display=swap');
+
+.form-cont input {
+    width: 70%;
+    background: transparent;
+    font-size: 25px;
+    outline: 1px solid #2BC016;
+    border-radius: 16px;
+    padding: 20px;
+    color: #f7f7f7;
+}
+.form-cont textarea {
+    margin-top: 10px;
+    width: 100%;
+    background: transparent;
+    color: #FF6F59;
+    outline: 1px solid #2BC016;
+    border-radius: 5px;
+    font-size: 30px;
+    color: #f7f7f7;
+}
+
+
+  .form-cont {
+    text-align: center;
+    position: relative;
+    width: 700px;
+    max-width: 100%;
+    left: 50%;
+    transform: translate(-50%);
+}
+::placeholder{
+    font-size: 20px;
+}
+ h1{
+    color: white;
+    font-family: 'Patua One', cursive;
+    font-size: 40PX;
+}
+
+
+
+.form-cont button {
+    background-color: darkblue;
+    color: #f7f7f7;
+    font-size: 20px;
+    padding: 20px;
+    border-radius: 16px;
+  
+   
+}
+
+
+body{
+    background: url('../images/php.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
